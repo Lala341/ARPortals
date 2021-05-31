@@ -231,7 +231,7 @@
 var type=findGetParameter("type");
 console.log(type);
 if(type==="1"){
-    document.getElementById("mk").insertAdjacentHTML( 'beforeend','<a-entity rotation= "0 0 0" position= "0 0 0"  id="glbtest" gltf-model="#glbtestmodel"/>');
+    document.getElementById("mk").insertAdjacentHTML( 'beforeend','<a-entity rotation= "0 0 0" position= "0 0 0" scale="100 100 100" id="glbtest" gltf-model="#glbtestmodel"/>');
 }
 else if(type==="2"){
     document.getElementById("mk").insertAdjacentHTML( 'beforeend','<a-entity rotation= "270 90 270" position= "0 0 0" scale="0.1 0.1 0.1" id="glbtest2" gltf-model="#glbtestmodeldos"/>');
